@@ -1,0 +1,48 @@
+img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: aliceblue;
+    flex: 1;
+    padding: 1em;
+}
+
+.main-content {
+    flex: 2;
+    padding: 1rem;
+}
+
+.users {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {}

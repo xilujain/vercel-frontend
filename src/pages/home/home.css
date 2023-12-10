@@ -1,0 +1,68 @@
+.title {
+    color: var(--primary-color);
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.onboard-home {
+    padding-bottom: 15em;
+}
+
+.onboard-home img {
+    display: flex;
+    align-items: center;
+    width: -moz-available;
+}
+
+.filter-section {
+    padding: 0.5em;
+    margin-top: 2rem;
+}
+
+.filter-price {
+    margin-top: 5rem;
+    height: 50vh;
+}
+
+.price-type {
+    display: ruby;
+}
+
+.pagination {
+    margin-top: 5rem;
+}
+
+footer {
+    position: sticky;
+    display: flex;
+    padding-top: 2em;
+    min-height: 30vh;
+    margin-top: 20rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: large;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .filter {
+        width: 40%;
+    }
+
+    .filter-price {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .filter {
+        width: 40%;
+    }
+
+    .filter-price {
+        display: block;
+    }
+}
